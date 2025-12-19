@@ -8,6 +8,14 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: #ebf9fe;
+  --color-primaryText: #23a9eb;
+  --color-secondary: #fcf8ca;
+  --color-secondaryText: #e98e34;
+  --color-synced: #f0f9eb;
+  --color-syncedText: #01a151;
+  --color-notSynced: #eaeaea;
+  --color-notSyncedText: #838580;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -21,6 +29,6 @@
 
 body {
   background: var(--background);
-  color: var(--foreground);
+  color: #546661;
   font-family: Arial, Helvetica, sans-serif;
 }
